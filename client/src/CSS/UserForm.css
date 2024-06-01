@@ -1,0 +1,71 @@
+.user-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 255, 0.562);
+  color: white;
+  border-radius: 5px;
+}
+
+.form-group {
+  background-color: rgba(161, 161, 224, 0.562);
+  color: white;
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+  display: block;
+  background-color: rgba(0, 0, 255, 0.562);
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgba(161, 161, 224, 0.562);
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 41%;
+}
+
+.delete {
+  margin-left: 20%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(61, 61, 146, 0.562);
+  color: white;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .user-form-container {
+    width: 90%;
+  }
+}

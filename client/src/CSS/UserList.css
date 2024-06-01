@@ -1,0 +1,38 @@
+.user-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 255, 0.562);
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: rgba(0, 0, 255, 0.562);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.detail {
+  color: rgb(113, 206, 243);
+}
+.detail:hover {
+  color: #0edde4;
+}
+
+@media (max-width: 600px) {
+  .user-item {
+    padding: 8px;
+  }
+}
